@@ -3,12 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="gl-ab" targetName="monitors" />
+      <config projectName="gl-ab" targetName="iconify" />
       <config projectName="gl-ab" targetName="reopen" />
       <config projectName="gl-ab" targetName="timeout" />
-      <config projectName="gl-ab" targetName="iconify" />
       <config projectName="gl-ab" targetName="inputlag" />
       <config projectName="gl-ab" targetName="sharing" />
       <config projectName="gl-ab" targetName="gl-ab" />
+      <config projectName="gl-ab" targetName="vulkan" />
       <config projectName="gl-ab" targetName="simple" />
       <config projectName="gl-ab" targetName="clipboard" />
       <config projectName="gl-ab" targetName="threads" />
@@ -19,13 +20,13 @@
       <config projectName="gl-ab" targetName="gl-ab-test" />
       <config projectName="gl-ab" targetName="windows" />
       <config projectName="gl-ab" targetName="opacity" />
-      <config projectName="gl-ab" targetName="splitview" />
-      <config projectName="gl-ab" targetName="events" />
       <config projectName="gl-ab" targetName="offscreen" />
+      <config projectName="gl-ab" targetName="events" />
+      <config projectName="gl-ab" targetName="splitview" />
       <config projectName="gl-ab" targetName="msaa" />
+      <config projectName="gl-ab" targetName="docs" />
       <config projectName="gl-ab" targetName="boing" />
       <config projectName="gl-ab" targetName="joysticks" />
-      <config projectName="gl-ab" targetName="docs" />
       <config projectName="gl-ab" targetName="empty" />
       <config projectName="gl-ab" targetName="glfwinfo" />
       <config projectName="gl-ab" targetName="icon" />
@@ -44,7 +45,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda88703-ffb5-497f-a1f4-3f568d167b48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/IndexBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/IndexBuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RenderState.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/RenderState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RenderTarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/RenderTarget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Session.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Session.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Square.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/TargetRenderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/TargetRenderer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Texture.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Texture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Transformable.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Transformable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Vertex.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Vertex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/VertexBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/VertexBuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/VertexBufferArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/VertexBufferArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/IndexBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/IndexBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Logger.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/RenderState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/RenderState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/RenderTarget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/RenderTarget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Session.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Session.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Square.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Square.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/TargetRenderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/TargetRenderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Transformable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Transformable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Vertex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Vertex.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/VertexBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/VertexBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/VertexBufferArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/VertexBufferArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SessionTest.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/SessionTest.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,30 +88,93 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/source/Shader.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitmodules">
+        <entry file="file://$PROJECT_DIR$/source/Square.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="12" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/TargetRenderer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Texture.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Transformable.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Vertex.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/VertexBufferArray.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Window.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/VertexBuffer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/test/SessionTest.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="420">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,6 +189,35 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/include/IndexBuffer.h" />
+        <option value="$PROJECT_DIR$/include/Logger.h" />
+        <option value="$PROJECT_DIR$/include/RenderState.h" />
+        <option value="$PROJECT_DIR$/include/RenderTarget.h" />
+        <option value="$PROJECT_DIR$/include/Session.h" />
+        <option value="$PROJECT_DIR$/include/Shader.h" />
+        <option value="$PROJECT_DIR$/include/Square.h" />
+        <option value="$PROJECT_DIR$/include/TargetRenderer.h" />
+        <option value="$PROJECT_DIR$/include/Texture.h" />
+        <option value="$PROJECT_DIR$/include/Transformable.h" />
+        <option value="$PROJECT_DIR$/include/Vertex.h" />
+        <option value="$PROJECT_DIR$/include/VertexBuffer.h" />
+        <option value="$PROJECT_DIR$/include/VertexBufferArray.h" />
+        <option value="$PROJECT_DIR$/include/Window.h" />
+        <option value="$PROJECT_DIR$/source/IndexBuffer.cpp" />
+        <option value="$PROJECT_DIR$/source/Logger.cpp" />
+        <option value="$PROJECT_DIR$/source/RenderState.cpp" />
+        <option value="$PROJECT_DIR$/source/RenderTarget.cpp" />
+        <option value="$PROJECT_DIR$/source/Session.cpp" />
+        <option value="$PROJECT_DIR$/source/Shader.cpp" />
+        <option value="$PROJECT_DIR$/source/Square.cpp" />
+        <option value="$PROJECT_DIR$/source/TargetRenderer.cpp" />
+        <option value="$PROJECT_DIR$/source/Texture.cpp" />
+        <option value="$PROJECT_DIR$/source/Transformable.cpp" />
+        <option value="$PROJECT_DIR$/source/Vertex.cpp" />
+        <option value="$PROJECT_DIR$/source/VertexBufferArray.cpp" />
+        <option value="$PROJECT_DIR$/source/Window.cpp" />
+        <option value="$PROJECT_DIR$/source/VertexBuffer.cpp" />
+        <option value="$PROJECT_DIR$/test/SessionTest.hpp" />
       </list>
     </option>
   </component>
@@ -109,17 +231,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="749" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="687" />
+    <option name="y" value="127" />
     <option name="width" value="1043" />
     <option name="height" value="910" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,11 +261,15 @@
               <item name="OpenGL-Abstraction" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gl-ab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL-Abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,6 +448,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vulkan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gl-ab" TARGET_NAME="vulkan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gl-ab" RUN_TARGET_NAME="vulkan">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gl-ab" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gl-ab" RUN_TARGET_NAME="wave">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -363,6 +496,7 @@
       <item itemvalue="CMake Application.threads" />
       <item itemvalue="CMake Application.timeout" />
       <item itemvalue="CMake Application.title" />
+      <item itemvalue="CMake Application.vulkan" />
       <item itemvalue="CMake Application.windows" />
     </list>
   </component>
@@ -377,25 +511,20 @@
       <option name="presentableId" value="Default" />
       <updated>1555685552495</updated>
       <workItem from="1555685553635" duration="1655000" />
+      <workItem from="1555694422391" duration="706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1655000" />
+    <option name="totallyTimeSpent" value="2361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="277" y="86" width="1043" height="910" extended-state="0" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24924925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32904884" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3881748" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" weight="0.27506426" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -403,16 +532,36 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32904884" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3881748" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.27506426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -420,17 +569,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
+    <entry file="file://$PROJECT_DIR$/LICENCE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/IndexBuffer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" lean-forward="true" selection-start-column="12" selection-end-column="26" />
+          <caret selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/include/Logger.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RenderState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/RenderTarget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Session.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Shader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Square.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/TargetRenderer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Texture.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Transformable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Vertex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/VertexBuffer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/VertexBufferArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Window.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/IndexBuffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Logger.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/RenderState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/RenderTarget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Session.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Shader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Square.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/TargetRenderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Texture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Transformable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Vertex.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/VertexBufferArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/VertexBuffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SessionTest.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
